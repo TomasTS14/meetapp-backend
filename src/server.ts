@@ -1,7 +1,7 @@
 
 
 
-import { app } from "./app";
+import { app } from "./App";
 
 
 const port = process.env.PORT;
