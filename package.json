@@ -1,0 +1,48 @@
+{
+  "name": "bubbletee-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.ts",
+    "test": "jest --coverage",
+    "build": "tsc",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:TomasTS14/BubbleTee-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgemarcoaltabas/actividad7/issues"
+  },
+  "homepage": "https://github.com/jorgemarcoaltabas/actividad7#readme",
+  "devDependencies": {
+    "@types/cors": "2.8.13",
+    "@types/express": "4.17.16",
+    "@types/jest": "29.4.0",
+    "@types/supertest": "2.0.12",
+    "jest": "29.4.1",
+    "nodemon": "2.0.20",
+    "superagent": "8.0.9",
+    "supertest": "6.3.3",
+    "ts-jest": "29.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "@types/bcrypt": "5.0.0",
+    "@types/jsonwebtoken": "9.0.0",
+    "@types/pg": "8.6.5",
+    "bcrypt": "5.1.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "jsonwebtoken": "9.0.0",
+    "pg": "8.8.0",
+    "swagger-autogen": "2.23.1",
+    "swagger-ui-express": "4.6.3"
+  }
+}
